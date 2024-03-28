@@ -19,11 +19,12 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 280px;
+    width: 270px;
 }
 
 .container-dn .title{
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: 0;
 }
 
 .highlight{
@@ -33,7 +34,7 @@
 .container-dn p{
     display: flex;
     font-size: calc(2.8px + 1vw);
-    margin-top: 10px;
+    margin-top: 4px;
 }
 
 @media (min-width: 576px) { 
@@ -43,12 +44,12 @@
     }
 
     .container-dn p{
-        margin-top: 6%;
-        font-size: calc(3.4px + 1vw)
+        margin-top: 0;
+        font-size: calc(3.2px + 1vw)
     }
 
     .container-dn{
-        width: 340px;
+        width: 310px;
     }
 }
 
@@ -74,13 +75,12 @@
     }
 
     .container-dn p{
-        margin-top: 20px;
-        font-size: calc(7.4px + 1vw);
+        font-size: calc(6.4px + 1vw);
     }
 
     .container-dn{
         margin-top: 28px;
-        width: 580px;
+        width: 520px;
     }
 }
 
@@ -91,13 +91,13 @@
 
     .container-dn p{
         margin-top: 20px;
-        font-size: calc(9.6px + 1vw)
+        font-size: calc(7px + 1vw)
     }
 
     .container-dn{
         margin-top: 28px;
         right: 20px;
-        width: 700px;
+        width: 600px;
     }
  }
 
@@ -109,12 +109,12 @@
 
     .container-dn p{
         margin-top: 60px;
-        font-size: calc(8.2px + 1vw)
+        font-size: calc(6px + 1vw)
     }
 
     .container-dn{
         right: 40px;
-        width: 880px;
+        width: 800px;
     }
  }
 
