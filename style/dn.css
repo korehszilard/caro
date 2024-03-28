@@ -1,0 +1,180 @@
+.dn{
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    height: 1070px;
+}
+
+.back{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.container-dn{
+    position: absolute;
+    right: 0;
+    margin-top: 4%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+}
+
+.container-dn .title{
+    font-size: 18px;
+}
+
+.highlight{
+    color: #bb0302;
+}
+
+.container-dn p{
+    display: flex;
+    font-size: calc(2.8px + 1vw);
+    margin-top: 10px;
+}
+
+@media (min-width: 576px) { 
+    
+    .container-dn .title{
+        font-size: 22px;
+    }
+
+    .container-dn p{
+        margin-top: 6%;
+        font-size: calc(3.4px + 1vw)
+    }
+
+    .container-dn{
+        width: 340px;
+    }
+}
+
+ @media (min-width: 768px) {
+    .container-dn .title{
+        font-size: 26px;
+    }
+    
+    .container-dn p{
+        margin-top: 12px;
+        font-size: calc(5px + 1vw)
+    }
+
+    .container-dn{
+        margin-top: 20px;
+        width: 420px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-dn .title{
+        font-size: 32px;
+    }
+
+    .container-dn p{
+        margin-top: 20px;
+        font-size: calc(7.4px + 1vw);
+    }
+
+    .container-dn{
+        margin-top: 28px;
+        width: 580px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-dn .title{
+        font-size: 40px;
+    }
+
+    .container-dn p{
+        margin-top: 20px;
+        font-size: calc(9.6px + 1vw)
+    }
+
+    .container-dn{
+        margin-top: 28px;
+        right: 20px;
+        width: 700px;
+    }
+ }
+
+ @media (min-width: 1400px){
+    .container-dn .title{
+        font-size: 60px;
+        margin-top: 40px;
+    }
+
+    .container-dn p{
+        margin-top: 60px;
+        font-size: calc(8.2px + 1vw)
+    }
+
+    .container-dn{
+        right: 40px;
+        width: 880px;
+    }
+ }
+
+.main-card{
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.front-card{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: white;
+    border-radius: 10px;
+}
+
+.back-card{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #bb0302;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.front-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.front-card h4{
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+}
+
+.back-card  h3{
+    margin: 60px auto;
+}
+
+.back-card p{
+    align-items: center;
+    width: 500px;
+    margin: 80px auto;
+}
+
+

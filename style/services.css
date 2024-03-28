@@ -1,0 +1,29 @@
+.services{
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+    background-color: #fefefe;
+}
+
+.icon{
+    height: 200px;
+}
+
+.s-text{
+    margin-bottom: 40px;
+}
+
+.list{
+    background-color: #bb0302;
+    margin: 20px auto;
+    text-align: center;
+    width: 420px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.list:hover{
+    background-color: black;
+}
