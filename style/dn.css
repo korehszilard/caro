@@ -19,7 +19,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 260px;
+    width: 250px;
 }
 
 .container-dn .title{
@@ -116,65 +116,4 @@
         right: 40px;
         width: 800px;
     }
- }
-
-.main-card{
-    width: 600px;
-    height: 400px;
-    margin: 20px auto;
 }
-
-.card{
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.8s ease;
-    border-radius: 10px;
-}
-
-.card:hover{
-    transform: rotateY(180deg);
-}
-
-.front-card{
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    color: white;
-    border-radius: 10px;
-}
-
-.back-card{
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    background: #bb0302;
-    color: white;
-    transform: rotateY(180deg);
-    border-radius: 10px;
-    text-align: center;
-}
-
-.front-card img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-.front-card h4{
-    position: absolute;
-    left: 20px;
-    bottom: 0px;
-}
-
-.back-card  h3{
-    margin: 60px auto;
-}
-
-.back-card p{
-    align-items: center;
-    width: 500px;
-    margin: 80px auto;
-}
-
-
