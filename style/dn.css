@@ -19,7 +19,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 240px;
 }
 
 .container-dn .title{
@@ -33,7 +33,7 @@
 
 .container-dn p{
     display: flex;
-    font-size: calc(2.8px + 1vw);
+    font-size: calc(2.6px + 1vw);
     margin-top: 4px;
 }
 

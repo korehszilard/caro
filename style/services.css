@@ -6,16 +6,30 @@
 }
 
 .main-card{
+    position: relative;
     width: 600px;
     height: 400px;
     margin: 20px auto;
 }
 
+.front-card img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+
 .card{
+    position: absolute;
     width: 100%;
-    height: 100%;
     transform-style: preserve-3d;
     transition: all 0.8s ease;
+    border-radius: 10px;
+}
+
+.front-card{
+    position: absolute;
+    backface-visibility: hidden;
+    color: white;
     border-radius: 10px;
 }
 
@@ -23,29 +37,16 @@
     transform: rotateY(180deg);
 }
 
-.front-card{
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    color: white;
-    border-radius: 10px;
-}
-
 .back-card{
-    width: 100%;
-    height: 100%;
+    position: absolute;
     backface-visibility: hidden;
     background: #bb0302;
+    width: 600px;
+    height: 400px;
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
     text-align: center;
-}
-
-.front-card img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
 }
 
 .front-card h4{
