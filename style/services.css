@@ -6,6 +6,12 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    margin-top: 0px;
 }
 
 .main-card{
@@ -13,8 +19,7 @@
     height: 220px;
     position: relative;
     border-radius: 10px;
-    margin-top: 20px;
-    left: 50px;
+    margin: 10px auto;
 }
 
 .front-card img{
@@ -34,7 +39,6 @@
     backface-visibility: hidden;
     color: white;
     border-radius: 10px;
-    margin: 0 auto;
 }
 
 .card:hover{
@@ -71,19 +75,19 @@
 
 @media (min-width: 1200px) {
     .main-card{
-        width: 540px;
-        height: 320px;
+        width: 580px;
+        height: 360px;
     } 
 
     .front-card img{
-        width: 540px;
-        height: 320px;
+        width: 580px;
+        height: 360px;
         border-radius: 10px;
     }
 
     .back-card{
-        width: 540px;
-        height: 320px;
+        width: 580px;
+        height: 360px;
     }
 
 
