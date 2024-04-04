@@ -3,17 +3,22 @@
     z-index: 0;
     text-align: center;
     background-color: #fefefe;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .main-card{
-    width: 340px;
+    width: 360px;
     height: 220px;
     position: relative;
-    margin: 10px auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    left: 50px;
 }
 
 .front-card img{
-    width: 340px;
+    width: 360px;
     height: 220px;
     border-radius: 10px;
 }
@@ -29,6 +34,7 @@
     backface-visibility: hidden;
     color: white;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 .card:hover{
@@ -39,7 +45,7 @@
     position: absolute;
     backface-visibility: hidden;
     background: #bb0302;
-    width: 340px;
+    width: 360px;
     height: 220px;
     color: white;
     transform: rotateY(180deg);
@@ -61,4 +67,24 @@
     font-size: 14px;
     width: 240px;
     margin: 20px auto;
+}
+
+@media (min-width: 1200px) {
+    .main-card{
+        width: 540px;
+        height: 320px;
+    } 
+
+    .front-card img{
+        width: 540px;
+        height: 320px;
+        border-radius: 10px;
+    }
+
+    .back-card{
+        width: 540px;
+        height: 320px;
+    }
+
+
 }
