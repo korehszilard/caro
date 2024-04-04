@@ -64,19 +64,35 @@
 }
 
 .back-card  h3{
+    font-size: 20px;
     margin-top: 10px;
 }
 
 .back-card p{
     font-size: 14px;
-    width: 240px;
+    width: 250px;
     margin: 20px auto;
+}
+
+.list{
+    margin: 10px auto;
+    padding: 10px;
+    width: 400px;
+    color: #fefefe;
+    background-color: #bb0302;
+    border-radius: 10px;
+    border: none;
+}
+
+.list:hover{
+    background-color: #800202;
 }
 
 @media (min-width: 1200px) {
     .main-card{
         width: 580px;
         height: 360px;
+        margin-top: 30px;
     } 
 
     .front-card img{
@@ -90,5 +106,18 @@
         height: 360px;
     }
 
+    .title{
+        margin-top: 20px;
+    }
 
+    .back-card  h3{
+        font-size: 34px;
+        margin-top: 20px;
+    }
+    
+    .back-card p{
+        font-size: 24px;
+        width: 500px;
+        margin: 40px auto;
+    }
 }
