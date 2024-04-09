@@ -59,7 +59,7 @@
 .front-card h4{
     position: absolute;
     left: 20px;
-    bottom: 0px;
+    bottom: -10px;
 }
 
 .back-card  h3{
