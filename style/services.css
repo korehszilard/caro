@@ -6,8 +6,6 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 0;
-    padding: 0;
 }
 
 .title{
@@ -20,6 +18,7 @@
     position: relative;
     border-radius: 10px;
     margin: 10px auto;
+    padding: 0;
 }
 
 .front-card img{
@@ -30,7 +29,7 @@
 
 .card{
     transform-style: preserve-3d;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease;
     border-radius: 10px;
 }
 
