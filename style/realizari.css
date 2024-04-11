@@ -2,6 +2,13 @@
     text-align: center;
 }
 
-li{
+.realizari li{
     margin: 10px 0;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+@media (min-width: 1200px){
+.realizari li{
+    font-size: 22px;
+}
 }
