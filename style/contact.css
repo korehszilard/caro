@@ -1,0 +1,30 @@
+.contact{
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(180deg, #fefefe 10%,grey,black);
+}
+
+.card-con{
+    margin: 20px auto;
+    background-color: #fefefe;
+    width: 340px;
+    border-radius: 20px;
+    padding: 0;
+  }
+
+.card-con h4{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.card-con img{
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 400px;
+    width: 340px;
+}
+
+.card-con p{
+    margin-left: 20px;
+}

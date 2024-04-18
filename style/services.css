@@ -13,6 +13,7 @@
     font-weight: 700px;
     font-size: 40px;
     margin-top: 0px;
+    text-align: center;
 }
 
 .main-card{
@@ -39,7 +40,7 @@
 .front-card{
     position: absolute;
     backface-visibility: hidden;
-    color: white;
+    color: #fefefe;
     border-radius: 10px;
 }
 
@@ -53,7 +54,7 @@
     background: #bb0302;
     width: 360px;
     height: 220px;
-    color: white;
+    color: #fefefe;
     transform: rotateY(180deg);
     border-radius: 10px;
     text-align: center;
